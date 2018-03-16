@@ -1,0 +1,15 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+.single-artiste .entry-title,.single-artiste article div.thumbnail,.page-template-default .oceanwp-recent-posts .recent-posts-info,.single-artiste .recent-posts-info .recent-posts-comments,.single-artiste .recent-posts-info .sep{
+    display: none;
+}
