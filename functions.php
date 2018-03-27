@@ -147,3 +147,11 @@ function wpse_breadcrumb_disque( $links ) {
 
     return $links;
 }
+
+/*** Images ***/
+
+//add_image_size( 'events', 300, 120, array( 'left', 'top' ) );
+//add_image_size( 'event', 300,120 );
+//add_image_size('mobile',768);
+//add_image_size('mobile1',768,270,array( 'center', 'center' ));
+add_image_size( 'artiste', 768,512, true );
