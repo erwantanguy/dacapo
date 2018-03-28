@@ -13,3 +13,9 @@ Version: 1.0
 .single-artiste .entry-title,.single-artiste article div.thumbnail,.page-template-default .oceanwp-recent-posts .recent-posts-info,.single-artiste .recent-posts-info .recent-posts-comments,.single-artiste .recent-posts-info .sep{
     display: none;
 }
+#site-navigation ul[id] li > a > span > i{
+    margin-right: 0;
+}
+#site-navigation ul[id] li > a > span > i + span{
+    display: none;
+}
