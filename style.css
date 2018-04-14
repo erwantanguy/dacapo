@@ -19,3 +19,7 @@ Version: 1.0
 #site-navigation ul[id] li > a > span > i + span{
     display: none;
 }
+
+video {
+    height: auto !important;
+}
